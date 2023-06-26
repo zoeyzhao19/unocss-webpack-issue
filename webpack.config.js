@@ -11,6 +11,7 @@ module.exports = (env = {}) =>  {
     devServer: {
       hot: true,
       static: __dirname,
+      allowedHosts: 'all',
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
